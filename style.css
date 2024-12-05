@@ -1,0 +1,99 @@
+/* 基本样式设置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main {
+    margin-top: 50px;
+}
+
+section {
+    padding: 40px 0;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.elf-creations {
+    background-color: #e8f4f8;
+}
+
+.call-to-action {
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 28px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9f00;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #e88e00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
